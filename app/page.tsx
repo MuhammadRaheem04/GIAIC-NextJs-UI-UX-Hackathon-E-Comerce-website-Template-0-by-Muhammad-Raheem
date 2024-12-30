@@ -1,12 +1,5 @@
 
 
-
-
-
-
-
-
-
 import Navbar1 from "./components/Home/Navbar1";
 import Hero from "./components/Home/Hero";
 import MoreProducts from "./components/Home/MoreProducts";
