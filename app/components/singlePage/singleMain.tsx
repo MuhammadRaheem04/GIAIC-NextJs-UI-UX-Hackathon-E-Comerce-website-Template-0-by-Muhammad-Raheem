@@ -1,6 +1,5 @@
 
 import Image from 'next/image'
-import Link from 'next/link';
 import React from 'react'
 import { FaStar } from "react-icons/fa6";
 import { FaCircle } from "react-icons/fa";
@@ -21,21 +20,21 @@ const SingleMain = () => {
                   {/* short images  */}
                   <div className='w-full md:w-[76px] h-[416px] flex justify-between md:flex-col md:space-y-4'>
                     <div className='w-[76px] h-[80px] bg-[#FFF9E5] rounded-lg'>
-                    <Image src={require('../../../public/images/shop/products/Outdoor sofa set-1.png')} alt='sofa img' width={76} height={80}/>
+                    <Image src="/images/shop/products/Outdoor sofa set-1.png" alt='sofa img' width={76} height={80}/>
                     </div>
                     <div className='w-[76px] h-[80px] bg-[#FFF9E5] rounded-lg'>
-                    <Image src={require('../../../public/images/shop/products/Outdoor sofa set-2.png')} alt='sofa img' width={76} height={80}/>
+                    <Image src="/images/shop/products/Outdoor sofa set-2.png" alt='sofa img' width={76} height={80}/>
                     </div>
                     <div className='w-[76px] h-[80px] bg-[#FFF9E5] rounded-lg'>
-                    <Image src={require('../../../public/images/shop/products/Stuart sofa 1.png')} alt='sofa img' width={76} height={80}/>
+                    <Image src="/images/shop/products/Stuart sofa 1.png" alt='sofa img' width={76} height={80}/>
                     </div>
                     <div className='w-[76px] h-[80px] bg-[#FFF9E5] rounded-lg'>
-                    <Image src={require('../../../public/images/shop/products/Maya sofa three seater (1) 1.png')} alt='sofa img' width={76} height={80}/>
+                    <Image src="/images/shop/products/Maya sofa three seater (1) 1.png" alt='sofa img' width={76} height={80}/>
                     </div>
                   </div>
                   {/* big Image  */}
                   <div className='w-[300px] md:w-[423px] h-[350px] md:h-[500px] bg-[#FFF9E5] rounded-lg flex items-center'>
-                  <Image src={require('../../../public/images/shop/products/Asgaard sofa 3.png')} alt='sofa img' width={480} height={390}/>
+                  <Image src="/images/shop/products/Asgaard sofa 3.png" alt='sofa img' width={480} height={390}/>
                   </div>
              </div>
 

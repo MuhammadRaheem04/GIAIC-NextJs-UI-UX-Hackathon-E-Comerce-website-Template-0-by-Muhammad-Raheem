@@ -1,11 +1,9 @@
    'use client'
 import React from 'react'
-import { useState } from 'react';
 import Link from 'next/link'
 import { FiSearch } from "react-icons/fi";
 import { FiHeart } from "react-icons/fi";
 import { FaRegUser } from "react-icons/fa";
-import { GiHamburgerMenu } from "react-icons/gi";
 import { FaCartShopping } from "react-icons/fa6";
 import { SheetSide } from '@/components/sheet';
 

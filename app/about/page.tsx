@@ -26,7 +26,7 @@ const About = () => {
                 </div>
                 <div className="flex flex-col justify-center items-center text-center">
                     <Image
-                        src={require('../../public/images/shop/products/Description-1.png')}
+                        src="/images/shop/products/Description-1.png"
                         alt="Profile picture"
                         width={705}
                         height={609}
@@ -47,7 +47,7 @@ const About = () => {
 
                     <div>
                         <div className='w-[270px] h-[230px] flex flex-col  justify-center items-center border-2 border-black/20 rounded-md'>
-                            <Image src={require('../../public/images/shop/products/Asgaard sofa 3.png')} alt='img' height={100} width={100} />
+                            <Image src="/images/shop/products/Asgaard sofa 3.png" alt='img' height={100} width={100} />
                             <h1 className='text-[32px] font-[Inter] font-bold'>10.5k </h1>
                             <h2 className='text-[16px] font-[Poppins] font-normal'>Sallers active our site</h2>
                         </div>
@@ -57,7 +57,7 @@ const About = () => {
 
                     <div>
                         <div className='w-[270px] h-[230px]  flex flex-col justify-center items-center border-2 border-black/20 rounded-md'>
-                            <Image src={require('../../public/images/shop/products/Description-1.png')} alt='img' height={100} width={100} />
+                            <Image src="/images/shop/products/Description-1.png" alt='img' height={100} width={100} />
                             <h1 className='text-[32px] font-[Inter] font-bold'>33k </h1>
                             <h2 className='text-[16px] font-[Poppins] font-normal'>Mopnthly Produduct Sale</h2>
                         </div>
@@ -66,7 +66,7 @@ const About = () => {
                     {/* catagory 03  */}
                     <div>
                         <div className='w-[270px] h-[230px] flex flex-col justify-center items-center border-2 border-black/20 rounded-md'>
-                            <Image src={require('../../public/images/shop/products/Description-2.png')} alt='img' height={100} width={100} />
+                            <Image src="/images/shop/products/Description-2.png" alt='img' height={100} width={100} />
                             <h1 className='text-[32px] font-[Inter] font-bold'>45.5k</h1>
                             <h2 className='text-[16px] font-[Poppins] font-normal'>Customer active in our site</h2>
                         </div>
@@ -75,7 +75,7 @@ const About = () => {
                     {/* catagory 04  */}
                     <div>
                         <div className='w-[270px] h-[230px] flex flex-col justify-center items-center border-2 border-black/20 rounded-md'>
-                            <Image src={require('../../public/images/shop/products/Mask group-10.png')} alt='img' height={100} width={100} />
+                            <Image src="/images/shop/products/Mask group-10.png" alt='img' height={100} width={100} />
                             <h1 className='text-[32px] font-[Inter] font-bold'>25k </h1>
                             <h2 className='text-[16px] font-[Poppins] font-normal'>Anual gross sale in our site</h2>
                         </div>

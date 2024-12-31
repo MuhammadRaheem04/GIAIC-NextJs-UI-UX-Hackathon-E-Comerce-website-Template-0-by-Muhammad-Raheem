@@ -2,14 +2,10 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
+
 import {
   Sheet,
-  SheetClose,
   SheetContent,
-  SheetDescription,
-  SheetFooter,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
@@ -43,7 +39,7 @@ export function SheetSide() {
             <div className='flex items-center mt-10 justify-start border-t-2 pt-10'>
               {/* left side image  */}
            <div className='h-[105px] w-[108px] bg-[#FBEBB5] flex justify-center items-center rounded-md'>
-            <Image src={require('../public/images/shop/products/Asgaard sofa 3.png')} alt='Sofa Img' width={100} height={100}/>
+            <Image src="/images/shop/products/Asgaard sofa 3.png" alt='Sofa Img' width={100} height={100}/>
     
            </div>
            {/* right side text  */}

@@ -2,7 +2,6 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
 
 
 const ShopProducts = () => {
@@ -17,7 +16,7 @@ const ShopProducts = () => {
             <div>
                 {/* image  */}
             <div className='w-[180px] md:w-[287px] h-[180px] md:h-[287px]'> 
-                <Image src={require('../../../public/images/shop/products/Mask group-1.png')} alt='Product Image' width={287} height={287} />
+                <Image src="/images/shop/products/Mask group-1.png" alt='Product Image' width={287} height={287} />
             </div>
                   {/* Tittle  */}
             <div className='ml-5 md:ml-14'>
@@ -30,7 +29,7 @@ const ShopProducts = () => {
             <div>
                 {/* image  */}
             <div className='w-[180px] md:w-[287px] h-[180px] md:h-[287px]'> 
-                <Image src={require('../../../public/images/shop/products/Mask group-2.png')} alt='Product Image' width={287} height={287} />
+                <Image src="/images/shop/products/Mask group-2.png" alt='Product Image' width={287} height={287} />
             </div>
                   {/* Tittle  */}
             <div className=' ml-5 md:ml-14'>
@@ -43,7 +42,7 @@ const ShopProducts = () => {
             <div>
                 {/* image  */}
             <div className='w-[180px] md:w-[287px] h-[180px] md:h-[287px]'> 
-                <Image src={require('../../../public/images/shop/products/Mask group-3.png')} alt='Product Image' width={287} height={287} />
+                <Image src="/images/shop/products/Mask group-3.png" alt='Product Image' width={287} height={287} />
             </div>
                   {/* Tittle  */}
             <div className='ml-5 md:ml-14'>
@@ -56,7 +55,7 @@ const ShopProducts = () => {
             <div>
                 {/* image  */}
             <div className='w-[180px] md:w-[287px] h-[180px] md:h-[287px]'> 
-                <Image src={require('../../../public/images/shop/products/Mask group-4.png')} alt='Product Image' width={287} height={287} />
+                <Image src="/images/shop/products/Mask group-4.png" alt='Product Image' width={287} height={287} />
             </div>
                   {/* Tittle  */}
             <div className='ml-5 md:ml-14'>
@@ -69,7 +68,7 @@ const ShopProducts = () => {
             <div>
                 {/* image  */}
             <div className='w-[180px] md:w-[287px] h-[180px] md:h-[287px]'> 
-                <Image src={require('../../../public/images/shop/products/Mask group-5.png')} alt='Product Image' width={287} height={287} />
+                <Image src="/images/shop/products/Mask group-5.png" alt='Product Image' width={287} height={287} />
             </div>
                   {/* Tittle  */}
             <div className='ml-5 md:ml-14'>
@@ -82,7 +81,7 @@ const ShopProducts = () => {
             <div>
                 {/* image  */}
             <div className='w-[180px] md:w-[287px] h-[180px] md:h-[287px]'> 
-                <Image src={require('../../../public/images/shop/products/Mask group-6.png')} alt='Product Image' width={287} height={287} />
+                <Image src="/images/shop/products/Mask group-6.png" alt='Product Image' width={287} height={287} />
             </div>
                   {/* Tittle  */}
             <div className='ml-5 md:ml-14'>
@@ -95,7 +94,7 @@ const ShopProducts = () => {
             <div>
                 {/* image  */}
             <div className='w-[180px] md:w-[287px] h-[180px] md:h-[287px]'> 
-                <Image src={require('../../../public/images/shop/products/Mask group-7.png')} alt='Product Image' width={287} height={287} />
+                <Image src="/images/shop/products/Mask group-7.png" alt='Product Image' width={287} height={287} />
             </div>
                   {/* Tittle  */}
             <div className='ml-5 md:ml-14'>
@@ -108,7 +107,7 @@ const ShopProducts = () => {
             <div>
                 {/* image  */}
             <div className='w-[180px] md:w-[287px] h-[180px] md:h-[287px]'> 
-                <Image src={require('../../../public/images/shop/products/Mask group-8.png')} alt='Product Image' width={287} height={287} />
+                <Image src="/images/shop/products/Mask group-8.png" alt='Product Image' width={287} height={287} />
             </div>
                   {/* Tittle  */}
             <div className='ml-5 md:ml-14'>
@@ -121,7 +120,7 @@ const ShopProducts = () => {
             <div>
                 {/* image  */}
             <div className='w-[180px] md:w-[287px] h-[180px] md:h-[287px]'> 
-                <Image src={require('../../../public/images/shop/products/Mask group-9.png')} alt='Product Image' width={287} height={287} />
+                <Image src="/images/shop/products/Mask group-9.png" alt='Product Image' width={287} height={287} />
             </div>
                   {/* Tittle  */}
             <div className='ml-5 md:ml-14'>
@@ -134,7 +133,7 @@ const ShopProducts = () => {
             <div>
                 {/* image  */}
             <div className='w-[180px] md:w-[287px] h-[180px] md:h-[287px]'> 
-                <Image src={require('../../../public/images/shop/products/Mask group-10.png')} alt='Product Image' width={287} height={287} />
+                <Image src="/images/shop/products/Mask group-10.png" alt='Product Image' width={287} height={287} />
             </div>
                   {/* Tittle  */}
             <div className='ml-5 md:ml-14'>
@@ -147,7 +146,7 @@ const ShopProducts = () => {
             <div>
                 {/* image  */}
             <div className='w-[180px] md:w-[287px] h-[180px] md:h-[287px]'> 
-                <Image src={require('../../../public/images/shop/products/Mask group-11.png')} alt='Product Image' width={287} height={287} />
+                <Image src="/images/shop/products/Mask group-11.png" alt='Product Image' width={287} height={287} />
             </div>
                   {/* Tittle  */}
             <div className='ml-5 md:ml-14'>
@@ -160,7 +159,7 @@ const ShopProducts = () => {
             <div>
                 {/* image  */}
             <div className='w-[180px] md:w-[287px] h-[180px] md:h-[287px]'> 
-                <Image src={require('../../../public/images/shop/products/Mask group-12.png')} alt='Product Image' width={287} height={287} />
+                <Image src="/images/shop/products/Mask group-12.png" alt='Product Image' width={287} height={287} />
             </div>
                   {/* Tittle  */}
             <div className='ml-5 md:ml-14'>
@@ -173,7 +172,7 @@ const ShopProducts = () => {
             <div>
                 {/* image  */}
             <div className='w-[180px] md:w-[287px] h-[180px] md:h-[287px]'> 
-                <Image src={require('../../../public/images/shop/products/Mask group-13.png')} alt='Product Image' width={287} height={287} />
+                <Image src="/images/shop/products/Mask group-13.png" alt='Product Image' width={287} height={287} />
             </div>
                   {/* Tittle  */}
             <div className='ml-5 md:ml-14'>
@@ -186,7 +185,7 @@ const ShopProducts = () => {
             <div>
                 {/* image  */}
             <div className='w-[180px] md:w-[287px] h-[180px] md:h-[287px]'> 
-                <Image src={require('../../../public/images/shop/products/Mask group-14.png')} alt='Product Image' width={287} height={287} />
+                <Image src="/images/shop/products/Mask group-14.png" alt='Product Image' width={287} height={287} />
             </div>
                   {/* Tittle  */}
             <div className='ml-5 md:ml-14'>
@@ -199,7 +198,7 @@ const ShopProducts = () => {
             <div>
                 {/* image  */}
             <div className='w-[180px] md:w-[287px] h-[180px] md:h-[287px]'> 
-                <Image src={require('../../../public/images/shop/products/Mask group-15.png')} alt='Product Image' width={287} height={287} />
+                <Image src="/images/shop/products/Mask group-15.png" alt='Product Image' width={287} height={287} />
             </div>
                   {/* Tittle  */}
             <div className='ml-5 md:ml-14'>
@@ -212,7 +211,7 @@ const ShopProducts = () => {
             <div>
                 {/* image  */}
             <div className='w-[180px] md:w-[287px] h-[180px] md:h-[287px]'> 
-                <Image src={require('../../../public/images/shop/products/Mask group-16.png')} alt='Product Image' width={287} height={287} />
+                <Image src="/images/shop/products/Mask group-16.png" alt='Product Image' width={287} height={287} />
             </div>
                   {/* Tittle  */}
             <div className='ml-5 md:ml-14'>

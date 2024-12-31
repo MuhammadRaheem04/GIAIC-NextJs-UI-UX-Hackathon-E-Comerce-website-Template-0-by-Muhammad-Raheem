@@ -21,7 +21,7 @@ const Page = () => {
           {/* middle logo and text  */}
           <div className='w-full h-full flex flex-col items-center relative z-10 '>
          <div>
-          <Image src={require('../../public/images/shop/Meubel House_Logos-05.png')} alt='Img logo' width={77} height={77} className='w-[60px] h-[60px] md:w-[77px] md:h-[77px] mt-8 md:mt-3 '/>
+          <Image src="/images/shop/Meubel House_Logos-05.png" alt='Img logo' width={77} height={77} className='w-[60px] h-[60px] md:w-[77px] md:h-[77px] mt-8 md:mt-3 '/>
           </div>
           {/* text div  */}
           <div className='flex flex-col items-center'>

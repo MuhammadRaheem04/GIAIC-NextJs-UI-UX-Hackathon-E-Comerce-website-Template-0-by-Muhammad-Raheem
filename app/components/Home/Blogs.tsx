@@ -23,7 +23,7 @@ const Blog = () => {
               {/* Blog 01  */}
               <div className='flex flex-col items-center mb-8'>
             <div className='w-[300px] md:w-[393px] h-[300px] md:h-[393px] flex justify-center items-center'> 
-                <Image src={require('../../../public/images/home/products/blog-1.png')} alt='Product Image' width={393} height={393} />
+                <Image src="/images/home/products/blog-1.png" alt='Product Image' width={393} height={393} />
             </div>
                   {/* Tittle  */}
             <div className='flex flex-col items-center'>
@@ -43,7 +43,7 @@ const Blog = () => {
                  {/* Blog 02  */}
               <div className='flex flex-col items-center mb-8'>
             <div className='w-[300px] md:w-[393px] h-[300px] md:h-[393px] flex justify-center items-center'> 
-            <Image src={require('../../../public/images/home/products/blog-2.png')} alt='Product Image' width={393} height={393} />
+            <Image src="/images/home/products/blog-2.png" alt='Product Image' width={393} height={393} />
             </div>
             {/* Tittle  */}
             <div className='flex flex-col items-center'>
@@ -62,7 +62,7 @@ const Blog = () => {
                  {/* Blog 03  */}  
                <div className='flex flex-col items-center'>
             <div className='w-[300px] md:w-[393px] h-[300px] md:h-[393px] flex justify-center items-center'> 
-            <Image src={require('../../../public/images/home/products/blog-3.png')} alt='Product Image' width={393} height={393} />
+            <Image src="/images/home/products/blog-3.png" alt='Product Image' width={393} height={393} />
             </div>
              {/* Tittle  */}
             <div className='flex flex-col items-center'>

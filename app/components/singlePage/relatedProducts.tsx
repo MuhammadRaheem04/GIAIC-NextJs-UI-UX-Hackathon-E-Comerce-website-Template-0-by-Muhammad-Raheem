@@ -20,7 +20,7 @@ const RelatedProducts = () => {
                         {/* Product 01  */}
                         <div className='md:ml-5'>
                             <div className='w-[287px] h-[287px] flex justify-center items-center'>
-                                <Image src={require('../../../public/images/home/products/Mask group.png')} alt='Product Image' width={287} height={287} />
+                                <Image src="/images/home/products/Mask group.png" alt='Product Image' width={287} height={287} />
                             </div>
                             {/* Tittle  */}
                             <div className='ml-16 md:ml-0'>
@@ -32,7 +32,7 @@ const RelatedProducts = () => {
                         {/* Product 02  */}
                         <div>
                             <div className='w-[287px] h-[287px] flex justify-center items-center'>
-                                <Image src={require('../../../public/images/home/products/Mask group-1.png')} alt='Product Image' width={287} height={287} />
+                                <Image src="/images/home/products/Mask group-1.png" alt='Product Image' width={287} height={287} />
                             </div>
                             {/* title  */}
                             <div className='ml-16 md:ml-0'>
@@ -43,7 +43,7 @@ const RelatedProducts = () => {
                         {/* Product 03  */}
                         <div>
                             <div className='w-[287px] h-[287px] flex justify-center items-center'>
-                                <Image src={require('../../../public/images/home/products/Mask group-2.png')} alt='Product Image' width={287} height={287} />
+                                <Image src="/images/home/products/Mask group-2.png" alt='Product Image' width={287} height={287} />
                             </div>
                             {/* title  */}
                             <div className='ml-16 md:ml-0'>
@@ -54,7 +54,7 @@ const RelatedProducts = () => {
                         {/* Product 04  */}
                         <div>
                             <div className='w-[287px] h-[287px] flex justify-center items-center '>
-                                <Image src={require('../../../public/images/home/products/Mask group-3.png')} alt='Product Image' width={287} height={287} />
+                                <Image src="/images/home/products/Mask group-3.png" alt='Product Image' width={287} height={287} />
                             </div>
                             {/* title  */}
                             <div className='ml-16 md:ml-0'>

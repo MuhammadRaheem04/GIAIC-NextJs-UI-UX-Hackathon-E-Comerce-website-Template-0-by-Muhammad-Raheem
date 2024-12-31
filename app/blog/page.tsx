@@ -19,7 +19,7 @@ const Blogs = () => {
                 {/* middle logo and text  */}
                 <div className='w-full h-full flex flex-col items-center relative z-10 justify-center'>
                     <div>
-                        <Image src={require('../../public/images/shop/Meubel House_Logos-05.png')} alt='Img logo' width={77} height={77} />
+                        <Image src="/images/shop/Meubel House_Logos-05.png" alt='Img logo' width={77} height={77} />
                     </div>
                     {/* text div  */}
                     <div className='flex flex-col items-center'>

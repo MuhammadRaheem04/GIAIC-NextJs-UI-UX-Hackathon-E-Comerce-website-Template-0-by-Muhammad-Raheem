@@ -23,10 +23,10 @@ const Description = () => {
                        {/* product Images  */}
                        <div className='w-full h-[600px] md:h-[350px] flex flex-col items-center md:flex-row justify-center gap-4 mt-8'>
                           <div className='w-[300px] md:w-[600px] h-[250px] md:h-[340px] bg-[#FFF9E5]'>
-                          <Image src={require('../../../public/images/shop/products/Description-1.png')} alt='Description Img' width={600} height={340}/>
+                          <Image src="/images/shop/products/Description-1.png" alt='Description Img' width={600} height={340}/>
                           </div>
                           <div className='w-[300px] md:w-[600px] h-[250px] md:h-[340px] bg-[#FFF9E5]'>
-                          <Image src={require('../../../public/images/shop/products/Description-2.png')} alt='Description Img' width={600} height={340}/>
+                          <Image src="/images/shop/products/Description-2.png" alt='Description Img' width={600} height={340}/>
                           </div>
                        </div>
                   

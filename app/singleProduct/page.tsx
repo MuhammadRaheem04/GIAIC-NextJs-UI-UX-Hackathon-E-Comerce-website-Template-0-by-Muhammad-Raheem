@@ -1,7 +1,6 @@
 'use client'
 import React from 'react'
 import Navbar2 from '../components/navbar2'
-import Image from 'next/image'
 import Link from 'next/link'
 import { MdArrowForwardIos } from "react-icons/md";
 import SingleMain from '../components/singlePage/singleMain'

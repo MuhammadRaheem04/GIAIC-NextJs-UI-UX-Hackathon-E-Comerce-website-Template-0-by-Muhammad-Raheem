@@ -10,7 +10,7 @@ const NewArrivals = () => {
             <div className='w-full h-[600px] md:h-[639px] bg-[#FFF9E5] flex flex-col justify-center md:flex-row items-center md:justify-evenly pb-16'>
                 {/* left side Image  */}
                 <div className='w-[350px] md:w-[600px] h-[450px] md:h-[620px] md:mt-20'>
-                    <Image src={require('../../../public/images/home/products/Asgaard sofa 1.png')} alt='Img' height={600} width={699} />
+                    <Image src="/images/home/products/Asgaard sofa 1.png" alt='Img' height={600} width={699} />
                 </div>
                    {/* right side text  */}
                    <div className='md:ml-28 flex flex-col items-start space-y-3 -mt-14'>

@@ -14,7 +14,7 @@ const BlogMain = () => {
         <div className='w-full md:w-[800px] md:h-[2490px] mt-8 md:mt-0'>
              {/* post 01  */}
              <div className='w-full h-[750px] md:h-[794px]'>
-             <Image src={require('../../../public/images/blog/post-1-unsplash.jpg')} alt='blog01 Img' height={500} width={800}/>
+             <Image src="/images/blog/post-1-unsplash.jpg" alt='blog01 Img' height={500} width={800}/>
              {/* date  */}
              <div className='text-[16px] text-[#9F9F9F] font-normal font-[Poppins] flex space-x-5 mt-2'>
                 <span className='flex items-center space-x-1'>
@@ -40,7 +40,7 @@ const BlogMain = () => {
              {/* post 02  */}
              <div>
              <div className='w-full h-[750px] md:h-[794px]'>
-             <Image src={require('../../../public/images/blog/post-02.png')} alt='blog01 Img' height={500} width={800}/>
+             <Image src="/images/blog/post-02.png" alt='blog01 Img' height={500} width={800}/>
              {/* date  */}
              <div className='text-[16px] text-[#9F9F9F] font-normal font-[Poppins] flex space-x-5 mt-2'>
                 <span className='flex items-center space-x-1'>
@@ -67,7 +67,7 @@ const BlogMain = () => {
                {/* post 03  */}
                <div>
                <div className='w-full h-[750px] md:h-[794px]'>
-             <Image src={require('../../../public/images/blog/post-2.png')} alt='blog01 Img' height={500} width={800}/>
+             <Image src="/images/blog/post-2.png" alt='blog01 Img' height={500} width={800}/>
              {/* date  */}
              <div className='text-[16px] text-[#9F9F9F] font-normal font-[Poppins] flex space-x-5 mt-2'>
                 <span className='flex items-center space-x-1'>
@@ -142,7 +142,7 @@ const BlogMain = () => {
                     <div className='space-y-8'>
                         {/* blog 01  */}
                         <div className='flex'>
-                       <Image src={require('../../../public/images/blog/blog-1-unsplash.jpg')} alt='blog-1' width={80} height={80} className=' rounded-lg'/>
+                       <Image src="/images/blog/blog-1-unsplash.jpg" alt='blog-1' width={80} height={80} className=' rounded-lg'/>
                        <div className='w-[115px] ml-2'>
                         <h1 className='text-[14px] text-black font-normal font-[Poppins]'>Going all-in with millennial design</h1>
                         <p className='text-[12px] text-[#9F9F9F] font-normal font-[Poppins]'>03 Aug 2022</p>
@@ -151,7 +151,7 @@ const BlogMain = () => {
 
                          {/* blog 02  */}
                          <div className='flex'>
-                       <Image src={require('../../../public/images/blog/blog-2-unsplash.jpg')} alt='blog-1' width={80} height={80} className=' rounded-lg'/>
+                       <Image src="/images/blog/blog-2-unsplash.jpg" alt='blog-1' width={80} height={80} className=' rounded-lg'/>
                        <div className='w-[115px] ml-2'>
                         <h1 className='text-[14px] text-black font-normal font-[Poppins]'>Exploring new ways of decorating</h1>
                         <p className='text-[12px] text-[#9F9F9F] font-normal font-[Poppins]'>03 Aug 2022</p>
@@ -160,7 +160,7 @@ const BlogMain = () => {
 
                           {/* blog 03  */}
                           <div className='flex'>
-                       <Image src={require('../../../public/images/blog/blog-3-unsplash.jpg')} alt='blog-1' width={80} height={80} className=' rounded-lg'/>
+                       <Image src="/images/blog/blog-3-unsplash.jpg" alt='blog-1' width={80} height={80} className=' rounded-lg'/>
                        <div className='w-[115px] ml-2'>
                         <h1 className='text-[14px] text-black font-normal font-[Poppins]'>Handmade pieces that took time to make</h1>
                         <p className='text-[12px] text-[#9F9F9F] font-normal font-[Poppins]'>03 Aug 2022</p>
@@ -169,7 +169,7 @@ const BlogMain = () => {
 
                           {/* blog 04  */}
                           <div className='flex'>
-                       <Image src={require('../../../public/images/blog/blog-4-unsplash.jpg')} alt='blog-1' width={80} height={80} className=' rounded-lg'/>
+                       <Image src="/images/blog/blog-4-unsplash.jpg" alt='blog-1' width={80} height={80} className=' rounded-lg'/>
                        <div className='w-[115px] ml-2'>
                         <h1 className='text-[14px] text-black font-normal font-[Poppins]'>Modern home in Milan</h1>
                         <p className='text-[12px] text-[#9F9F9F] font-normal font-[Poppins]'>03 Aug 2022</p>
@@ -178,7 +178,7 @@ const BlogMain = () => {
 
                           {/* blog 05  */}
                           <div className='flex'>
-                       <Image src={require('../../../public/images/blog/blog-5-unsplash.jpg')} alt='blog-1' width={80} height={80} className='h-[60px] rounded-lg'/>
+                       <Image src="/images/blog/blog-5-unsplash.jpg" alt='blog-1' width={80} height={80} className='h-[60px] rounded-lg'/>
                        <div className='w-[115px] ml-2'>
                         <h1 className='text-[14px] text-black font-normal font-[Poppins]'>Colorful office redesign</h1>
                         <p className='text-[12px] text-[#9F9F9F] font-normal font-[Poppins]'>03 Aug 2022</p>

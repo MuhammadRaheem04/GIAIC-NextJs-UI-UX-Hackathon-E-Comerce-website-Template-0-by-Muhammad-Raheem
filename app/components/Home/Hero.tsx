@@ -3,7 +3,6 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
-
 const Hero = () => {
   return (
     <div>
@@ -19,7 +18,7 @@ const Hero = () => {
         {/* right side Image */}
         <div className='w-[350px] md:w-[750px] md:h-[800px] sm:h-[450px]'>
           <Image
-            src={require('../../../public/images/home/Rocket single seater 1.png')}
+            src="/images/home/Rocket single seater 1.png"
             alt='hero Img'
             height={700}
             width={650}
